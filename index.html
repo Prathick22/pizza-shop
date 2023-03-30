@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link rel="icon" href="./assets/favicon.ico">
+    <title>Prathick"s pizza shop</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="header-div">
+      <div
+        style="
+          display: flex;
+          width: 100vw;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+        "
+      >
+        <i class="glyphicon glyphicon-user"></i>
+        <p>MY ACCOUNT</p>
+        <a href="">LOGIN|SIGNUP</a>
+      </div>
+    </div>
+    <div class="logo1"><img src="./assets/logo.png" /></div>
+
+    <div class="place">
+      <p>
+        Please select location, so that we can find a restaurant that delivers
+        to you!
+      </p>
+      <form>
+        <input type="text" name="" placeholder="enter location please!" />
+        <button type="button ;">locate me</button>
+      </form>
+      <div class="button1">
+        <input type="radio" name="" value="delivery" />DELIVERY
+        <input type="radio" name="" value="dinein" />DINE IN<br />
+      </div>
+    </div>
+    <div class="pg-content col-xs-12" style="background-color: rgba(173, 24, 24,0.5);margin-top: 10%; color: #fff;">
+      <div class="row">
+        <div class="tab-content col-xs-12 sub-menu-content"
+          <div id="pizza" class="tab-pane fade in active">
+            <div class="col-xs-12 pd-N">                                     
+              <div class="col-xs-12 pd-N hidden-xs">
+                <ul class="nav nav-tabs" role="tablist">
+                  <li class="active"><a href="#veg-pizzas" title="" class="piza" data-toggle="tab" aria-expanded="true" role="tab"><span class="track-point"></span><span></span><span class="main-tag"> Menu</span></a> </li>
+                </ul>
+              </div>
+              <!--<div class="col-xs-12 pd-N visible-xs track-section">
+                <div class="track">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="active"><a href="#veg-pizzas" title="" class="piza" data-toggle="tab" aria-expanded="true" role="tab"><span class="track-point"></span><span></span></a> </li>
+                </div>
+              </div>-->
+            </div>
+            <div class="tab-content col-xs-12 pd-N">
+              <div id="veg-pizzas" class="tab-pane fade pizza-items in active">
+                <!--<div class="col-xs-12 pd-N visible-xs"> <span class="tab-text">Slide me for more types of pizza's</span> <span class="tab-title">veg pizzas</span> </div>-->
+                <div style="min-height:500px;width:100%" class="col-xs-12 product-box our-menu-box">
+                  <div class="row vertical-box displayFlex">
+                    <div class="col-md-4 cat-card col-xs-12 col-sm-6 lightblue" style="">
+                      <div class="row">
+                        <div>
+                          <p class="my-pizza-offers">VEG PIZZA</p> <span class="icon-box">						  <img height="265" width="266" src="https://www.dominos.co.in/theme2/front/images/menu-images/my-vegpizza.webp" alt="Veg Pizza" title="" class="img-responsive">						  </span> </div>
+                        <p class="my-p"> <span style="font-size: small;">A delight for veggie lovers! Choose from our wide range of delicious vegetarian pizzas, it's softer and tastier</span> </p>
+                         <a href="https://www.dominos.co.in/menu/veg-pizzas" class="btn btn-primary custom-btn">View All</a> </div>
+                    </div>
+                    <div class="col-md-4 cat-card col-xs-12 col-sm-6 darkblue">
+                      <div class="row">
+                        <p class="my-pizza-offers">NON-VEG PIZZA</p>
+                        <div> <span class="icon-box"><img height="265" width="267" src="https://www.dominos.co.in/theme2/front/images/menu-images/my-nonveg.webp" alt="Non-Veg Pizza" title="" class="img-responsive"></span> </div>
+                        <p class="my-p"><span style="font-size: small;">Choose your favourite non-veg pizzas from the Domino's Pizza menu. Get fresh non-veg pizza with your choice of crusts &amp; toppings</span> </p>
+                        <a href="https://www.dominos.co.in/menu/non-veg-pizzas " class="btn btn-primary custom-btn">View All</a> </div>
+                    </div>
+                    <div class="col-md-4 cat-card col-xs-12 col-sm-6 lightblue">
+                      <div class="row">
+                        <p class="my-pizza-offers">PIZZA MANIA</p>
+                        <div><span class="icon-box"><img height="266" width="266" src="https://www.dominos.co.in/theme2/front/images/menu-images/my-pizzamania.webp" alt="Pizza Mania" title="" class="img-responsive"></span> </div>
+                        <p class="my-p"><span style="font-size: small;">Indulge into mouth-watering taste of Pizza mania range, perfect answer to all your food cravings </span> </p>
+                        <a href="https://www.dominos.co.in/menu/pizza-mania" class="btn btn-primary custom-btn">View All</a> </div>
+                    </div>
+                                              <div class="col-md-4 cat-card col-xs-12 col-sm-6 lightblue">
+                      <div class="row">                                
+                        <p class="my-pizza-offers">Sides &amp; Beverages</p>
+                        <div><span class="icon-box"><img height="266" width="266" src="https://www.dominos.co.in/theme2/front/images/menu-images/sides_beverages.webp" alt="Sides &amp; Beverages" title="" class="img-responsive"></span> </div>
+                        <p class="my-p"><span style="font-size: small;"> Complement your pizza with wide range of sides &amp; beverages available at Domino's Pizza India</span> </p>
+                        <a href="https://www.dominos.co.in/menu/side-orders" class="btn btn-primary custom-btn">View All</a> </div>
+                    </div>
+                    <div class="col-md-4 cat-card col-xs-12 col-sm-6 lightblue">
+                      <div class="row">                                
+                        <p class="my-pizza-offers">Pasta</p>
+                        <div><span class="icon-box"><img height="116" width="300" src="https://www.dominos.co.in/theme2/front/images/menu-images/pasta_new.webp" alt="Sides &amp; Beverages" title="" class="img-responsive"></span> </div>
+                        <p class="my-p"><span style="font-size: small;">Choose your favourite pizza pasta from the Domino's pasta menu. Get fresh non-veg pasta with your choice with creamy tomato, tikka masala, cheesy jalapeno and more.</span> </p>
+                        <a href="https://www.dominos.co.in/menu/pasta" class="btn btn-primary custom-btn">View All</a> </div>
+                    </div>
+                                            </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+      </div>
+      
+    </div>
+    <div class="foot">
+      <footer>
+        <ul class="navigation flex">
+          <li>Disclaimer</li>
+          <li>Privacy Policy</li>
+          <li>Terms & Conditions</li>
+          <li>Feedback</li>
+        </ul>
+      </footer>
+    </div>
+  </body>
+</html>
